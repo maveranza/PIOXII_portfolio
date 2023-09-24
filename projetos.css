@@ -1,6 +1,6 @@
 body {
     background-color: #FFE5A9;
-    margin: 0; /* Remova a margem padrão do corpo */
+    margin: 0;
 }
 
 .secao1 {
@@ -28,12 +28,11 @@ body {
     border: 1px solid;
     border-color: #CBBEB5;
     font-family: 'Source Sans Pro', sans-serif;
-    flex-direction: column; /* Alinha os elementos verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
-    text-align: center; /* Centraliza o texto horizontalmente */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
 }
 
-/* Estilo para os cabeçalhos (h2) nas colunas */
 .column h2 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -42,7 +41,6 @@ body {
     color: #525266;
 }
 
-/* Estilo para os parágrafos (p) nas colunas */
 .column p {
     font-size: 18px;
     line-height: 1.4;
