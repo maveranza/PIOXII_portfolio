@@ -1,0 +1,59 @@
+body {
+    background-color: #FFE5A9;
+    margin: 0; /* Remova a margem padrão do corpo */
+}
+
+.secao1 {
+    padding-top: 160px;
+    padding-bottom: 156px;
+}
+
+.projetos {
+    margin-top: -100px;
+    color: #525266;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/* styles.css */
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid;
+    border-color: #CBBEB5;
+    font-family: 'Source Sans Pro', sans-serif;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estilo para os cabeçalhos (h2) nas colunas */
+.column h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-align: center;
+    color: #525266;
+}
+
+/* Estilo para os parágrafos (p) nas colunas */
+.column p {
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    color: #525266;
+    margin-top: 40px;
+    font-family: glbOpenSans, "Open Sans", Inter, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+}
+
+.minha-imagem {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+}
