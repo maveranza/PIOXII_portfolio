@@ -2,7 +2,7 @@
 
 body {
     background-color: #525266;
-    margin: 0; /* Remova a margem padrão do corpo */
+    margin: 0; 
 }
 
 .superior {
@@ -10,7 +10,7 @@ body {
     list-style-type: none;
     padding: 0;
     font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif; /* Use a fonte correta */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .element-superior {
@@ -36,7 +36,7 @@ nav {
 
 section.me0 {
     color: #FFE5A9;
-    font-family: 'Source Sans Pro', sans-serif; /* Use a fonte correta */
+    font-family: 'Source Sans Pro', sans-serif; 
     text-align: center;
 }
 
@@ -111,11 +111,7 @@ section.me0 {
     padding: 20px;
 }
 
-/* ======== COR AM ======== */
-
 .cor-pag {
     padding: 200px;
     background-color: #FFE5A9;
 }
-
-
